@@ -12,6 +12,14 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_login"
+            android:backgroundTint="@color/darker_main_color"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"/>
+
         <LinearLayout
             android:id="@+id/layout_top"
             android:layout_width="wrap_content"
@@ -83,14 +91,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:text="@string/bt_form_submit"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:backgroundTint="@color/success"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/bt_form_cancel"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:backgroundTint="@color/warning"/>
         </LinearLayout>
+
     </LinearLayout>
 
 

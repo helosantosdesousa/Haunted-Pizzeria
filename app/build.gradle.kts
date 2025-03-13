@@ -5,7 +5,11 @@ plugins {
 
 android {
     namespace = "com.github.helosantosdesousa.hauntedpizzaria"
-    compileSdk = 34
+    compileSdk = 35
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.github.helosantosdesousa.hauntedpizzaria"
@@ -42,6 +46,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

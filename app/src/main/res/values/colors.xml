@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg_main_color">#FFC894</color>
     <color name="darker_main_color">#F08500</color>
+    <color name="warning">#FF1E0F</color>
+    <color name="success">#8BC34A</color>
 </resources>
