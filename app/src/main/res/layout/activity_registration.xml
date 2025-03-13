@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/tv_registration"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_top"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <EditText
+                android:id="@+id/etUsername"
+                style="@style/input_form"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:hint="Username"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etName"
+                style="@style/input_form"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:hint="Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/input_form"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="Password"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_form"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/bt_form_submit"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_form_cancel"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

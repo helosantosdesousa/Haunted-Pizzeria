@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Haunted Pizzaria</string>
+    <string name="bt_play">Let's Play!</string>
+    <string name="bt_form_submit">Submit</string>
+    <string name="bt_form_cancel">Cancel</string>
+    <string name="tv_registration">Choose a name and a number only password.\nYour name will be visible to other players in the ranking.</string>
 </resources>

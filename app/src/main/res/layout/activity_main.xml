@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="4dp"
+    android:background="@color/bg_main_color">
 
-    <TextView
-        android:layout_width="wrap_content"
+<TextView
+    android:id="@+id/tv_tittle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="20dp"
+    android:text="@string/app_name"
+    android:textSize="28sp"/>
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/tv_tittle"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:src="@drawable/img_main" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/darker_main_color"
+        android:text="@string/bt_play"
+        android:textSize="15sp" />
+
+</RelativeLayout>
