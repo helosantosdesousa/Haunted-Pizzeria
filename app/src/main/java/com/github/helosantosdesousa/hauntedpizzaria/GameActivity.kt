@@ -1,15 +1,24 @@
+package com.github.helosantosdesousa.hauntedpizzaria
+
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.gridlayout.widget.GridLayout
-import com.github.helosantosdesousa.hauntedpizzaria.R
 import com.github.helosantosdesousa.hauntedpizzaria.databinding.ActivityGameBinding
 
 class GameActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityGameBinding // Declaração do binding
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_game)
+
+        println("chamou game activity")
+    }
+
+    /*private lateinit var binding: ActivityGameBinding // Declaração do binding
 
     // Defina o estado do jogo: 0 - Nenhuma ação, 1 - Encontrou a saída, 2 - Foi pego pelo monstro
     private var gameState = 0
@@ -32,7 +41,7 @@ class GameActivity : AppCompatActivity() {
 
     private fun setupGrid() {
         // Acesse o GridLayout corretamente com a referência do binding
-        val grid: android.widget.GridLayout = binding.gridRooms
+        val grid: GridLayout = binding.grid_rooms
 
         for (i in 0 until grid.childCount) {
             val roomImage = grid.getChildAt(i) as ImageView
@@ -78,5 +87,5 @@ class GameActivity : AppCompatActivity() {
                 binding.containerRooms.setBackgroundColor(resources.getColor(R.color.bg_main_color)) // cor padrão
             }
         }
-    }
+    }*/
 }
