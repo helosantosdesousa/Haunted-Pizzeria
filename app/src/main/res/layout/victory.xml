@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_color">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/victoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_victory"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/retryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:text="@string/bt_retry"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:backgroundTint="@color/darker_main_color"
+            />
+
+        <Button
+            android:id="@+id/rankingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:text="@string/bt_ranking"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -3,7 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_main_color"
-    android:padding="4dp">
+    android:padding="4dp"
+    android:id="@+id/container_principal">
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:paddingEnd="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_login"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:id="@+id/bt_createAc_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/bt_login"
+            android:backgroundTint="@color/darker_main_color"
+            android:layout_marginBottom="10dp"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"/>
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,14 +41,6 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:orientation="vertical">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bt_login"
-            android:backgroundTint="@color/darker_main_color"
-            android:layout_marginBottom="10dp"
-            android:textSize="14sp"/>
 
         <LinearLayout
             android:id="@+id/layout_top"
@@ -91,7 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:text="@string/bt_form_submit"
+                android:text="@string/bt_form_signup"
                 android:textAlignment="center"
                 android:backgroundTint="@color/success"/>
 

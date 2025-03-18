@@ -1,12 +1,24 @@
 <resources>
     <string name="app_name">Haunted Pizzaria</string>
     <string name="bt_play">Lets Play!</string>
-    <string name="bt_form_submit">Sign-up</string>
+    <string name="bt_login">Log-in</string>
     <string name="bt_form_cancel">Cancel</string>
+    <string name="bt_form_signup">Sign-up</string>
     <string name="tv_registration">Choose a name and a number only password.\nYour name will be visible to other players in the ranking.</string>
-    <string name="bt_login">I have an account</string>
+    <string name="bt_signup">Sign-up</string>
+    <string name="tv_signup">Dont have an account? Sign-up!</string>
+    <string name="tv_login">Dont you have an account? Log-in!</string>
     <string name="lore_tittle">Tittle</string>
     <string name="lore">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tincidunt ligula, id porta nisi venenatis vel. Vestibulum feugiat mauris ut ante vestibulum pellentesque. Donec sed nunc malesuada, sollicitudin ante laoreet, iaculis enim. Praesent augue dui, interdum eu leo lobortis, auctor varius metus. Donec eget eros consequat dolor vulputate facilisis. Aenean ut eros iaculis, volutpat lacus eget, rhoncus orci. Pellentesque vel dolor nisl. Maecenas id enim placerat, maximus sapien vitae, placerat libero.</string>
-    <string name="game_hour">00:00AM</string>
-    <string name="remaining_moves">Remaining moves: x</string>
+    <string name="game_hour">%1$s</string>
+    <string name="remaining_moves">Remaining moves: %1$d</string>
+    <string name="tv_gameOver">Game over!</string>
+    <string name="bt_retry">Try again</string>
+    <string name="bt_ranking">See ranking</string>
+    <string name="tv_victory">You won!</string>
+    <string name="bt_playAgain">Play again</string>
+    <string name="toast_try_again">Keep trying!</string>
+
+
+
 </resources>
