@@ -8,8 +8,8 @@
     <string name="bt_signup">Sign-up</string>
     <string name="tv_signup">Dont have an account? Sign-up!</string>
     <string name="tv_login">Dont you have an account? Log-in!</string>
-    <string name="lore_tittle">Tittle</string>
-    <string name="lore">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tincidunt ligula, id porta nisi venenatis vel. Vestibulum feugiat mauris ut ante vestibulum pellentesque. Donec sed nunc malesuada, sollicitudin ante laoreet, iaculis enim. Praesent augue dui, interdum eu leo lobortis, auctor varius metus. Donec eget eros consequat dolor vulputate facilisis. Aenean ut eros iaculis, volutpat lacus eget, rhoncus orci. Pellentesque vel dolor nisl. Maecenas id enim placerat, maximus sapien vitae, placerat libero.</string>
+    <string name="lore_tittle">How to play</string>
+    <string name="lore">A few weeks ago, the Haunted Pizzaria was shut down after a series of mysterious disappearances. The workers who used to work here all vanished without a trace, leaving only rumors behind.&#10;You, a curious and brave soul, have decided to venture into the restaurant in search of the truth. As the clock strikes midnight, the heavy doors slam shut behind you, and youre trapped inside. The restaurant is eerily silent, but you soon realize something is lurking in the shadows. The air feels cold and strange, and whispers echo through the halls. There’s only one way out—but it won’t be easy. You must explore the rooms, avoiding the terrifying monster that stalks your every move. The exit is waiting, but the clock is ticking. Will you survive until 6 AM? Or will the monster find you before you can escape? Only time will tell.</string>
     <string name="game_hour">%1$s</string>
     <string name="remaining_moves">Remaining moves: %1$d</string>
     <string name="tv_gameOver">Game over!</string>

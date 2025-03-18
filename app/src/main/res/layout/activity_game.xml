@@ -51,7 +51,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/warehouse"
                 android:contentDescription="Sala 1"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -64,7 +64,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/banheiro"
                 android:contentDescription="Sala 2"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -77,7 +77,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/copa"
                 android:contentDescription="Sala 3"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -90,7 +90,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/corredor"
                 android:contentDescription="Sala 4"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -103,7 +103,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/cozinha"
                 android:contentDescription="Sala 5"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -116,7 +116,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/deposito"
                 android:contentDescription="Sala 6"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -129,7 +129,7 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/escritorio"
                 android:contentDescription="Sala 7"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -142,7 +142,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/garagem"
                 android:contentDescription="Sala 8"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>
@@ -155,7 +155,7 @@
                 android:layout_column="2"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:src="@drawable/img_main"
+                android:src="@drawable/salao"
                 android:contentDescription="Sala 9"
                 android:scaleType="centerCrop"
                 android:layout_margin="4dp"/>

@@ -27,7 +27,6 @@ class GameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Inicializa o ViewBinding
         binding = ActivityGameBinding.inflate(layoutInflater)
         gameOverBinding = GameOverBinding.inflate(layoutInflater)
         victoryBinding = VictoryBinding.inflate(layoutInflater)
@@ -35,6 +34,12 @@ class GameActivity : AppCompatActivity() {
         setContentView(binding.root)
         val player = Player();
         val monster = Monster();
+
+        val username = intent.getStringExtra("USER_NAME")
+        val passcode = intent.getStringExtra("USER_PASSWORD")
+
+        player.username = username
+        player.passcode = passcode
 
         startGame(player, monster)
 
@@ -105,6 +110,7 @@ class GameActivity : AppCompatActivity() {
             advanceTime()
             println("Movimentos restantes: ${player.remainingMoves}")
             showToast(player, monster)
+            setMonsterRoom(monster, player)
             if (player.remainingMoves>0){
                 selectRoom(player, monster)
             }
@@ -124,6 +130,9 @@ class GameActivity : AppCompatActivity() {
         inGameHour = 0  // Começa com 00:00
         inGameMinute = 0
         updateDisplayedHour()
+
+        println("username: ${player.username}")
+        println("passcode: ${player.passcode}")
     }
 
     fun showGameOver(){
