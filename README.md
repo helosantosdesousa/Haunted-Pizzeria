@@ -10,8 +10,6 @@ A suspense and strategy game developed in Kotlin, where players have 6 in-game h
 ## 🧱 Technologies Used
 Kotlin
 Database (for ranking and scoring)
-Graphical Interface (specify if it's Android, JavaFX, etc.)
-Movement logic and basic AI (random monster)
 
 ## 🚧 Project Status
 🔧 In Development — New features, gameplay adjustments, and interface improvements are in progress. Feedback is welcome!
